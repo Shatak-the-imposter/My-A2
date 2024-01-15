@@ -1,0 +1,101 @@
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+:root {
+    --primary-color: #FF5400;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    height: 56px;
+    width: 48px;
+}
+
+nav ul {
+    display: flex;
+    position: relative;
+    left: 60%;
+    gap: 44px;
+}
+
+nav li {
+    list-style: none;
+}
+
+.primary-title {
+    font-size: 2.5rem;
+}
+
+#orange-color {
+    color: var(--primary-color);
+}
+
+.Banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/banner.png), no-repeat;
+    max-width: 1170px;
+    height: 500px;
+    margin: auto;
+    border-radius: 16px;
+    align-items: center;
+}
+
+.input-box {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    border: none;
+}
+
+#select-type {
+    height: 52px;
+}
+
+.find-bar {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: fit-content;
+    padding: 16px;
+    position: relative;
+    top: 60%;
+    left: 18%;
+    display: flex;
+    gap: 24px;
+}
+
+.main_btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: none;
+}
+.Banner-content{
+border: 1px solid red;
+max-width: 1170px;
+height: 500px;
+align-items: center;
+
+}
+#Banner-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    max-width: 600px;
+}
+#Banner-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 670px;
+}
